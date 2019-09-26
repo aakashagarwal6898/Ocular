@@ -1,6 +1,4 @@
-﻿import os
-import re
-
+import os
 
 yourpath = r"E:\Dataset\Dataset_tiny_final\text_files"   # target folder with images 
 for root, dirs, files in os.walk(yourpath, topdown=False):
